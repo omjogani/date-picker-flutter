@@ -45,3 +45,6 @@ app.*.map.json
 /windows
 /macos
 /linux
+.firebaserc
+/.firebase
+firebase.json

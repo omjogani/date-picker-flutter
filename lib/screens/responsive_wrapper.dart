@@ -25,7 +25,7 @@ class ResponsiveWrapper extends StatelessWidget {
           return HomeScreen();
         } else {
           return SizedBox(
-            width: size.width * 0.50,
+            width: size.width * 0.30,
             child: HomeScreen(),
           );
         }
