@@ -180,7 +180,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   alignment: Alignment.center,
                   child: const Text(
-                    "Implementation:\n1. Custom Own Mask Input\n2. Only Digits are Allowed\n3. Responsive in Web & Mobile\n4. Date Selector doesn't affect other widgets.\n5. No Packages Used.\n6. Custom Date Validation Implemented.",
+                    "Implementation:\n1. Custom Own Mask Input\n2. Only Digits are Allowed\n3. Responsive in Web & Mobile\n4. Date Selector doesn't affect other widgets.\n5. No Packages Used.\n6. Custom Date Validation Implemented.\n7. Implemented Custom Calendar...",
                     textAlign: TextAlign.start,
                   ),
                 ),
