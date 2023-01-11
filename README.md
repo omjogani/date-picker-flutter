@@ -1,16 +1,32 @@
-# datepicker
+# Date Picker - Flutter
 
-A new Flutter project.
+A Date Picker Field which accepts date input from the keyboard and from the calendar too.
 
-## Getting Started
+### Features Implemented
 
-This project is a starting point for a Flutter application.
+1. Custom Mask Implemented
+2. Custom Date Validation Implemented
+3. Responsive & Minimalist Design
+4. Only Digits are Allowed
+5. No Packages used
 
-A few resources to get you started if this is your first Flutter project:
+### Screenshots
+<p float="left">
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/1.jpg" width="250" />
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/2.jpg" width="250" /> 
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/3.jpg" width="250" />
+</p>
+<p float="left">
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/4.jpg" width="250" />
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/5.jpg" width="250" /> 
+  <img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/6.jpg" width="250" />
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/7.jpg"  /> 
+<img src="https://github.com/omjogani/date-picker-flutter/blob/master/screenshots/8.jpg"  />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thanks (Parat App) for Providing this Assignment!
+
+---
+>If you found this useful, make sure to give it a star 🌟
+## Thank You!!
