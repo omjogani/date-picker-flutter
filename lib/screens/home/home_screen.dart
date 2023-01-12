@@ -156,7 +156,8 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               onEditingComplete: () {},
               onSaved: (date) {
-                // _chosenDateTime = DateTime.parse(date!);
+                //_chosenDateTime = DateTime.parse(date!);
+                
               },
               validator: (date) => Validators().validateDate(date!),
               onSuffixIconClick: () {
