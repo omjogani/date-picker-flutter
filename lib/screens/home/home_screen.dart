@@ -295,9 +295,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                     String days = "", months = "";
                                     int day = index + 1;
                                     if ((day) <= 9) {
-                                      days = "0$day";
+                                      days = "0${day - startingDayOfSelectedMonthCopy}";
                                     } else {
-                                      days = "$day";
+                                      days = "${day - startingDayOfSelectedMonthCopy}";
                                     }
                                     if (selectedMonthIndex <= 9) {
                                       months = "0$selectedMonthIndex";
@@ -307,7 +307,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                     setState(() {
                                       
                                       _dateController.text =
-                                          "$days/$months/$selectedYear";
+                                          "${days}/$months/$selectedYear";
+                                      startingDayOfSelectedMonth = startingDayOfSelectedMonthCopy;
                                       // _chosenDateTime = DateTime.parse("$days/$months/$selectedYear");
                                     });
                                   },
